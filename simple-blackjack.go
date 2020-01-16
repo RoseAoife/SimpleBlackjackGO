@@ -1,6 +1,7 @@
 // Simple Blackjack for CSI 380
 // This program play's a simple, single suit game of Blackjack
 // against a computer dealer.
+// tynanpmatthews & bcoop098
 
 package main
 
