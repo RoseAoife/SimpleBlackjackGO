@@ -70,7 +70,7 @@ func printStatus(playerCards, dealerCards []string) {
 
 // Entry point and main game loop
 func main() {
-  rand.New(rand.NewSource(time.Now().UnixNano()))
+  rand.Seed(time.Now().UnixNano())
 	deck := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
 	playerCards := []string{}
 	dealerCards := []string{}
