@@ -37,10 +37,10 @@ func calculateScore(hand []string) int {
 		}
 	}
   if ace == 1 {
-    if (score + 10) > 21 {
+    if (score + 11) > 21 {
       score += 1
     } else {
-      score += 10
+      score += 11
     }
   }
 	return score
