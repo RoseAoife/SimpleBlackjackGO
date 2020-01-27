@@ -75,8 +75,8 @@ func main() {
 	deck := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
 	playerCards := []string{}
 	dealerCards := []string{}
-
-	fmt.Println("Simple Blackjack!\n")
+	fmt.Println("Simple Blackjack!")
+	fmt.Println("")
 
 	//Deal Initial Cards
 	drawCard(&dealerCards, &deck)
@@ -90,6 +90,7 @@ func main() {
 			fmt.Println("Player Bust!")
 			break
 		}
+		fmt.Println("Dealer Hand: ", dealerCards)
 		fmt.Println("Your Hand: ", playerCards)
 		fmt.Println("Would you like to [1] Draw? or [2] Hold?: ")
 		var userInput string
